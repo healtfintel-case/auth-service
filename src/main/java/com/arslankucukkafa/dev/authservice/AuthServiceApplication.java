@@ -27,9 +27,9 @@ public class AuthServiceApplication {
     @PostConstruct
     public void createDefaultUser() {
         User defaultUser = new User();
-        defaultUser.setUsername("default");
-        defaultUser.setPassword("defaultPassword");
-        defaultUser.setEmail("default@mail");
+        defaultUser.setUsername("ArslanKucukkafa");
+        defaultUser.setPassword("ArslanKucukkafaPassword");
+        defaultUser.setEmail("arslankucukkafa@mail");
         defaultUser.setRole("USER");
         defaultUser.setEnabled(true);
         defaultUser.setCreatedAt(LocalDateTime.now());
